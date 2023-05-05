@@ -11,16 +11,56 @@ reset
 
 * {
     font-family: 'Fredoka', sans-serif;
-}
+    max-width: 1000px;
+    margin:0 auto;
+    
 
+}
 .title {
     color: #E54D85;
     text-align: center;
-    padding: 25px;
+    padding-top: 25px;
+    padding-bottom: 40px;
     font-size: 40pt;
 }
 
 .post-title {
-    max-width: 1200px;
     margin: 0 auto;
+    margin-bottom: 40px;
 }
+
+.container-1::after {
+    content:"";
+    display: table;
+    clear: none;
+
+
+}
+
+.container-2 {
+    background-color: black;
+    width: 300px;
+    height: 100px;
+    float: left;
+    width: calc(100% / 3) - 10px;
+    margin:0 15px;
+    
+}
+
+.container-3 {
+    background-color: black;
+    width: 300px;
+    height: 100px;
+    float: left;
+    width: calc(100% / 3) - 10px;
+    margin:0 15px;
+}
+.container-4 {
+    background-color: black;
+    width: 300px;
+    height: 100px;
+    float: left;
+    width: calc(100% / 3) - 10px;
+    margin:0 15px;
+}
+
