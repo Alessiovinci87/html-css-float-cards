@@ -8,3 +8,19 @@ reset
     padding: 0;
     box-sizing: border-box;
 }
+
+* {
+    font-family: 'Fredoka', sans-serif;
+}
+
+.title {
+    color: #E54D85;
+    text-align: center;
+    padding: 25px;
+    font-size: 40pt;
+}
+
+.post-title {
+    max-width: 1200px;
+    margin: 0 auto;
+}
