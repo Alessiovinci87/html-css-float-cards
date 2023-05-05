@@ -28,39 +28,31 @@ reset
     margin: 0 auto;
     margin-bottom: 40px;
 }
-
-.container-1::after {
+.container{
+    width: 300px;
+    height: 100px;
+    display: inline-block;
+    background-color: black;
     content:"";
     display: table;
-    clear: none;
-
-
+    clear: both;
 }
 
-.container-2 {
-    background-color: black;
-    width: 300px;
+
+img{
     height: 100px;
     float: left;
-    width: calc(100% / 3) - 10px;
-    margin:0 15px;
-    
 }
 
-.container-3 {
-    background-color: black;
-    width: 300px;
+.rectangle {
+    text-align: left;
+    width: 200px;
     height: 100px;
-    float: left;
-    width: calc(100% / 3) - 10px;
-    margin:0 15px;
+    display: inline-block;
+    color: white;   
+    padding: 5%
 }
-.container-4 {
-    background-color: black;
-    width: 300px;
-    height: 100px;
-    float: left;
-    width: calc(100% / 3) - 10px;
-    margin:0 15px;
-}
+
+
+
 
