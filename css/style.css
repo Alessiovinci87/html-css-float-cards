@@ -36,6 +36,7 @@ reset
     content:"";
     display: table;
     clear: both;
+
 }
 
 
@@ -50,8 +51,11 @@ img{
     height: 100px;
     display: inline-block;
     color: white;   
-    padding: 5%
+    padding: 5%;
+    
+    
 }
+
 
 
 
